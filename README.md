@@ -30,7 +30,7 @@
 ---
 
 - git reset = remove do stage os arquivos desde o último commit.
-- git ckeckout HEAD {nome do arquivo} = desfaz alterações feitas nesse arquivo desde o último commit.
+- git ckeckout HEAD {nome do arquivo} = desfaz alterações feitas nesse arquivo desde o último commit no branch atual.
 
 ---
 
