@@ -7,6 +7,7 @@
 
 ---
 
+- git reset --soft {codigo do commit} = Restaura o projeto para o estado do commit ID informado sem apagar os demais arquivos (recomendado).
 - git reset --hard {codigo do commit} = Restaura PERMANENTEMENTE o projeto para o estado do commit ID informado (obs: AÇÂO DESTRUTIVA).
 
 ---
@@ -19,15 +20,17 @@
 ---
 
 - git checkout {codigoDoCommit} = reseta o projeto ao estado do commit informado(encontra com git log) temporariamente (retorne para o último commit com "git checkout {NomeDaBranch}).
-
----
-
 - git merge {nomeDaBranch} = Une a branch informada com a branch atualmente em uso.
-- git diff {nomeDoArquivo} = mostra as auterações em um arquivo informado desde do último commit.
+---
+- git diff = mostra as alterações nos arquivos alterados desde o último commit
+- git diff {nomeDoArquivo} = mostra as alterações em um arquivo informado desde do último commit.
+- git diff --name-only = lista os nomes dos arquivos alterados desde do último commit.
+
 
 ---
 
 - git reset = remove do stage os arquivos desde o último commit.
+- git ckeckout HEAD {nome do arquivo} = desfaz alterações feitas nesse arquivo desde o último commit.
 
 ---
 
