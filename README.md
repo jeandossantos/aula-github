@@ -12,6 +12,10 @@
 
 ---
 
+- git revert --no-edit {codigo do commit} = Restaura o projeto ao estado do commit informado sem apagar os arquivos para uma futura correção (cria um novo commit).
+
+---
+
 - git branch = lista as branches existentes.
 - git branch {nomeDaNovaBranch} = cria uma nova branch.
 - git checkout {nomeDaBranch} = muda para branch informada.
@@ -30,7 +34,7 @@
 ---
 
 - git reset = remove do stage os arquivos desde o último commit.
-- git ckeckout HEAD {nome do arquivo} = desfaz alterações feitas nesse arquivo desde o último commit no branch atual.
+- git ckeckout HEAD {nome do arquivo} = desfaz alterações feitas no arquivo informado desde o último commit no branch atual.
 
 ---
 
